@@ -20,6 +20,7 @@ public class GUIFrame extends JFrame
 		this.setContentPane(basePanel);; //Must be first line of set up Frame!
 		this.setSize(800, 1200);// Find aod size for the app.
 		JFrame frame = new JFrame("Garret is Amazing");
+		this.setTitle("Garrett is Amazing");
 		
 		this.setVisible(true); //Must be last line of set upFrame!
 	}
