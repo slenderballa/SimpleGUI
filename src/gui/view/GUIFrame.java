@@ -15,7 +15,9 @@ public class GUIFrame extends JFrame
 	
 	private void setupFrame()
 	{
-		this.setSize(400, 400);
+		this.setSize(800, 1200);
+		JFrame frame = new JFrame("Garret is Amazing");
+		this.setName("Poop");
 		this.setVisible(true);
 	}
 	

@@ -16,9 +16,10 @@ public class GuiAppController
 	/**
 	 * Creates a GUIAppController and initializes the GUIFrame.
 	 */
-	public GUIAppController()
+	public GuiAppController()
 	{
 		baseFrame = new GUIFrame(this);
+
 	}
 	
 	public void start()

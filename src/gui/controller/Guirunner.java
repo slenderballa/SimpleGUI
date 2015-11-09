@@ -10,8 +10,8 @@ public class Guirunner
 
 	public static void main (String [] args)
 	{
-		GUIController myappController  = new GUIController();
-		myController.start();
+		GuiAppController myappController  = new GuiAppController();
+		myappController.start();
 	}
 	
 	
