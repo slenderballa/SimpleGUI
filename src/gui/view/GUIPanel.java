@@ -2,6 +2,7 @@ package gui.view;
 
 import gui.view.GUIFrame;
 
+
 import javax.swing.JButton;
 import javax.swing.JTextField;
 import javax.swing.JPanel;
@@ -10,6 +11,8 @@ import gui.controller.GuiAppController;
 import java.awt.Color;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import java.awt.*;
+
 
 public class GUIPanel extends JPanel
 {
@@ -62,7 +65,38 @@ public class GUIPanel extends JPanel
 				firstTextField.setText("Wow this is the most amazing click event ever!");
 			}
 		});
-	}
+	
+	
+	this.addMouseListener(new MousListener()
+	{
+		public void mouseClicked(MouseEvent click)
+		{
+			
+		}
+		
+		public void mouseReleased(MouseEvent released)
+		{
+			
+		}
+		
+		public void mousePressed(MouseEvent pressed)
+		{
+			
+		}
+		
+		public void mouseEntered(MouseEvent entered)
+		{
+			
+		}
+		
+		public void mouseExited(MouseEvent exited)
+		{
+			
+		}
+		
+	
+		
+	});
 	
 	
 }
