@@ -1,6 +1,7 @@
 package gui.view;
 
 import javax.swing.JFrame;
+
 import gui.controller.GuiAppController;
 
 public class GUIFrame extends JFrame
